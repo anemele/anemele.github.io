@@ -1,7 +1,7 @@
 +++
 title = 'My First Post'
 date = 2023-10-26T20:37:14+08:00
-tags = ['computer', 'math']
+tags = ['blog', 'markdown', 'math']
 categories = 'computer'
 enableLaTeX = true
 +++
@@ -13,6 +13,8 @@ This is my first blog built by [Hugo](https://gohugo.io).
 My blog is host on <https://anemele.github.io>
 
 Contact me at <anemele@outlook.com>
+
+<!--more-->
 
 # Markdown
 
