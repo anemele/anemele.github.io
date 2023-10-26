@@ -1,0 +1,4 @@
+baseURL = 'https://anemele.github.io/'
+languageCode = 'zh-CN'
+title = 'My Blogs'
+theme = 'ananke'
