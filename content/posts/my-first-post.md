@@ -18,8 +18,6 @@ Contact me at <anemele@outlook.com>
 
 # Markdown
 
-reference: <https://markdown.com.cn/basic-syntax/>
-
 ## h2
 
 ### h3
@@ -71,3 +69,9 @@ This is a table
 | Hugo | Go |
 | Hexo | JavaScript |
 | Jekyll | Ruby |
+
+# Reference
+
+1. <https://gohugo.io/getting-started/quick-start/>
+2. <https://markdown.com.cn/basic-syntax/>
+3. <https://gohugo.io/hosting-and-deployment/hosting-on-github/>
