@@ -56,7 +56,7 @@ reference
 
 Using a theme supports LaTeX, you can type math formula.
 For example, the limit of $\frac{\sin x}{x}$
-while x is approaching 0 is
+while x is approaching $0$ is
 
 $$
 \lim_{x\to0}\frac{\sin x}{x}=1
