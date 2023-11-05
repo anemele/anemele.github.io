@@ -2,7 +2,7 @@
 title = '操作系统——文件系统'
 date = 2023-10-29T14:43:47+08:00
 draft = true
-tags = ['os', 'filesys']
+tags = ['os', 'file','system']
 categories = 'computer'
 +++
 

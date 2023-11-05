@@ -2,7 +2,7 @@
 title = 'rvv: Python 虚拟环境管理器'
 date = 2023-10-30T01:49:33+08:00
 draft = true
-tags = ['rvv', 'Python']
+tags = ['rvv', 'Python', 'venv']
 categories = 'computer'
 +++
 

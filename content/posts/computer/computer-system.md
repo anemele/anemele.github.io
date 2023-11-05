@@ -1,7 +1,7 @@
 +++
 title = '计算机系统'
 date = 2021-10-28T12:34:56+08:00
-tags = ['computer system']
+tags = ['system']
 categories = 'computer'
 +++
 
