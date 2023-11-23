@@ -21,5 +21,5 @@ name = "RSS Feed"
 weight = 4
 
 [frontmatter]
-date = ["lastmod", "date", "publishDate"]
-lastmod = [':fileModTime', 'lastmod', ':git', ':default', "publishDate"]
+date = [":git", "date", "publishDate"]
+lastmod = [':git', 'lastmod', "publishDate"]
