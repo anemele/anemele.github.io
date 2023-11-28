@@ -1,4 +1,4 @@
-baseURL = 'https://anemele.github.io/'
+baseURL = 'https://anemele.github.io/blogs'
 languageCode = 'zh-CN'
 title = "Jason Swift's Blogs"
 theme = 'diary'
