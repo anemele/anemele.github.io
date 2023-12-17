@@ -20,21 +20,21 @@ categories = 'computer'
 
 Python 早期是 `pip virtualenv pipreqs requirements` 组合，现在有了某 PEP 提出的 `pyproject.toml` ，并且得到很多支持。pypa 的 pip 对此支持还不够好，推荐使用 poetry ，有点类似 yarn 之于 npm 。
 
->Nodejs 有 package.json 和 yarn 。
+> Nodejs 有 package.json 和 yarn 。
 >
->Java 有 pom.xml 和 maven ，以及 build.gradle 和 gradle 。
+> Java 有 pom.xml 和 maven ，以及 build.gradle 和 gradle 。
 >
->Go 有 go.mod 。
+> Go 有 go.mod 。
 >
->Rust 有 Cargo.toml 和 cargo 。
+> Rust 有 Cargo.toml 和 cargo 。
 >
->期待 C++ 早日推出好用的包管理工具。
+> 期待 C++ 早日推出好用的包管理工具。
 
 *231105 补充： C++ 有一个 xmake 也很好用*
 
 # 依赖版本规则
 
-包管理的依赖一般使用语义版本（semantic version semver）格式，即版本号由 `major.minor.bufix` 组成。为方便说明，以下使用 `x.y.z` 。
+包管理的依赖一般使用语义版本（semantic version, semver）格式，即版本号由 `major.minor.micro` 组成。为方便说明，以下使用 `x.y.z` 。
 
 项目依赖一般写作
 `abc = "x.y.z"`
@@ -47,17 +47,18 @@ Python 早期是 `pip virtualenv pipreqs requirements` 组合，现在有了某 
 - 以上箭头 `^` 开头的写法表示将 y.z 升级到最新版本，但 x 保持不变。
 - latest 顾名思义就是最新版。
 
-用数学表示波浪线和上箭头的语义：
+用不等式表示波浪线和上箭头的语义：
 
-```
+```text
 ~x.y.z
-x.y.z <= version < x.y+1.0
+x.y.z <= version < x.(y+1).0
 
 ^x.y.z
-x.y.z <= version < x+1.0.0
+x.y.z <= version < (x+1).0.0
 ```
 
 以上存在一种例外情况：
+
 当依赖处于开发之中，即 x 为 0 ，需要后移一位。
 例如 ^0.9.3 表示 0.9.3 <= version < 0.10.0 ， ~0.9.3 等价于 0.9.3 。
 如果 x 和 y 都为 0 则需要再后移一位。当然，这种情况一般不会发生。
