@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        // hugo project
+        "archetypes": true,
+        "assets": true,
+        "data": true,
+        "i18n": true,
+        "layouts": true,
+        "public": true,
+        "resources": true,
+        "static": true,
+        "themes": true
+    }
+}
