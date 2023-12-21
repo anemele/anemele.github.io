@@ -5,13 +5,11 @@ tags = ['Visual Studio', 'rename']
 categories = 'computer'
 +++
 
-Edit files in two places:
+Edit files in two places[^1]:
 
-1. `%ProgramFiles%\Microsoft Visual Studio\[year]\[Version]\Common7\IDE\*.isolation.ini`
+1. `%ProgramFiles%\Microsoft Visual Studio\{year}\{Version}\Common7\IDE\*.isolation.ini`
 2. `%ProgramData%\Microsoft\VisualStudio\Packages\_Instances\{InstanceId}\state.json`
 
-Change or modify the `Nickname` value. Require run as Admin.
+Modify the `Nickname` value. Require running as admin.
 
-# Reference
-
-1. <https://developercommunity.visualstudio.com/t/not-able-to-easiliy-change-installation-nickname/99059#T-N384658>
+[^1]: https://developercommunity.visualstudio.com/t/not-able-to-easiliy-change-installation-nickname/99059#T-N384658
