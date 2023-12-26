@@ -1,7 +1,6 @@
 +++
 title = '编译器自举'
 date = 2023-12-26T13:43:22+08:00
-draft = true
 tags = ['compiler','bootstrap']
 categories = 'computer'
 +++
