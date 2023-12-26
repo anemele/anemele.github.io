@@ -3,8 +3,8 @@ title = 'Python 项目管理'
 date = 2023-06-22T22:19:12+08:00
 lastmod = 2023-11-05T22:22:22+08:00
 draft = false
-tags = ['Python']
-categories = 'computer'
+tags = ['Python', 'pyproject']
+categories = 'python'
 +++
 
 

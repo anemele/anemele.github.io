@@ -3,7 +3,7 @@ title = 'rvv: Python 虚拟环境管理器'
 date = 2023-10-30T01:49:33+08:00
 draft = true
 tags = ['rvv', 'Python', 'venv']
-categories = 'computer'
+categories = 'python'
 +++
 
 rvv 是一个用 Rust 实现的 Python 虚拟环境管理工具，可以实现虚拟环境的
