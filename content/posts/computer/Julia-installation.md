@@ -24,7 +24,7 @@ export JULIAUP_SERVER=https://mirrors.ustc.edu.cn/julia-releases
 ```
 
 ```batch
-# Windows
+@REM Windows
 set JULIAUP_SERVER=https://mirrors.ustc.edu.cn/julia-releases
 ```
 
