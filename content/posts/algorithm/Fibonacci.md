@@ -1,7 +1,6 @@
 +++
 title = '斐波那契数'
 date = 2023-11-05T19:06:01+08:00
-draft = false
 tags = ['']
 categories = 'algorithm'
 enableLaTeX = true

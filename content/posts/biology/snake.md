@@ -1,7 +1,6 @@
 +++
 title = '🐍'
 date = 2023-04-11T19:10:28+08:00
-draft = false
 tags = []
 categories = 'biology'
 +++

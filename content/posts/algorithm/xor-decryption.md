@@ -1,7 +1,6 @@
 +++
 title = '异或解密案例'
 date = 2022-04-09T16:22:13+08:00
-draft = false
 tags = ['xor', 'crypto']
 categories = 'algorithm'
 +++

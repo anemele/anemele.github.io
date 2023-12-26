@@ -1,7 +1,6 @@
 +++
 title = 'ipynb 导出 PDF'
 date = 2023-06-22T22:08:02+08:00
-draft = false
 tags = ['jupyter', 'PDF']
 categories = 'computer'
 +++

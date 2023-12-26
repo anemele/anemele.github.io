@@ -1,7 +1,6 @@
 +++
 title = 'manim 安装'
 date = 2023-06-14T22:46:35+08:00
-draft = false
 tags = ['manim', 'Python']
 categories = 'computer'
 +++

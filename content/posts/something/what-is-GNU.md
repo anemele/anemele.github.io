@@ -1,7 +1,6 @@
 +++
 title = '什么是 GNU ？'
 date = 2023-11-05T22:30:40+08:00
-draft = true
 tags = ['']
 categories = ''
 +++
@@ -25,7 +24,7 @@ categories = ''
 
 GNU 是 GNU is Not Unix 的递归缩写，至于为什么是 GNU，不是 XNU、YNU，问 Stallman 吧。
 
-***
+---
 
 异曲同工
 

@@ -1,7 +1,6 @@
 +++
 title = 'base64 编码原理'
 date = 2023-11-23T12:37:03+08:00
-draft = false
 tags = ['encoding', 'base64']
 categories = 'computer'
 +++

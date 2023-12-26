@@ -1,7 +1,6 @@
 +++
 title = '计算圆周率'
 date = 2023-11-05T19:05:14+08:00
-draft = false
 tags = ['series']
 categories = 'algorithm'
 enableLaTeX = true

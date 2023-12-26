@@ -1,7 +1,6 @@
 +++
 title = 'Python 脚本入口'
 date = 2023-12-20T14:24:18+08:00
-draft = true
 tags = ['entry']
 categories = 'python'
 +++

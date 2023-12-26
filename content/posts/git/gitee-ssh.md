@@ -1,7 +1,6 @@
 +++
 title = 'Gitee  添加 ssh 公钥'
 date = 2023-11-22T21:39:07+08:00
-draft = false
 tags = ['ssh', 'git', 'gitee']
 categories = 'computer'
 +++

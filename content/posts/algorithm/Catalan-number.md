@@ -1,7 +1,6 @@
 +++
 title = '卡特兰数'
 date = 2023-11-05T19:01:44+08:00
-draft = false
 tags = ['stack']
 categories = 'algorithm'
 enableLaTeX = true

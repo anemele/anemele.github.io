@@ -1,7 +1,6 @@
 +++
 title = 'Linux for Windows'
 date = 2022-07-21T09:42:11+08:00
-draft = false
 tags = ['Linux', 'Windows']
 categories = 'computer'
 +++
