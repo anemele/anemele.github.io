@@ -6,8 +6,6 @@ categories = 'math'
 enableLaTeX = true
 +++
 
-12 个微分/导数，13 个积分。
-
 *不定积分需要 $+C$，下面都省略了。验证两个不定积分结果是否相等的方法是求导。*
 
 |导数|积分|
@@ -19,12 +17,14 @@ enableLaTeX = true
 |$(\log_ax)'=\dfrac1{x\ln a}$|$\int\log_ax{\rm d}x=\dfrac{1}{\ln a}(x\ln x-x)$|
 |$\sin'x=\cos x$|$\int\sin x{\rm d}x=-\cos x$|
 |$\cos'x=-\sin x$|$\int\cos x{\rm d}x=\sin x$|
-|$\tan'x=\sec^2x$|$\int\tan x{\rm d}x=$|
-|$\cot'x=\sec^2x$|$\int\cot x{\rm d}x=$|
-|$\sec'x=\sec^2x$|$\int\sec x{\rm d}x=$|
-|$\csc'x=\sec^2x$|$\int\csc x{\rm d}x=$|
-||$\int\dfrac{1}{x^2-a^2}{\rm d}x=\dfrac{1}{2a}\ln\dfrac{x-a}{x+a}$|
-||$\int\dfrac{1}{x^2+a^2}{\rm d}x=$|
-||$\int\dfrac{1}{x^2+a^2}{\rm d}x=$|
-|||
-|$[\ln(x+\sqrt{x^2+1})]'=\dfrac{1}{\sqrt{1+x^2}}$|
+|$\tan'x=\sec^2x$|$\int\tan x{\rm d}x=-\ln\lvert\cos x\rvert$|
+|$\cot'x=-\csc^2x$|$\int\cot x{\rm d}x=\ln\lvert\sin x\rvert$|
+|$\sec'x=\sec x\tan x$|$\int\sec x{\rm d}x=\ln\lvert\sec x+\tan x\rvert$|
+|$\csc'x=-\csc x\cot x$|$\int\csc x{\rm d}x=\ln\lvert\csc x-\cot x\rvert$|
+|$\arcsin'x=\dfrac{1}{\sqrt{1-x^2}}$||
+|$\arctan'x=\dfrac{1}{1+x^2}$||
+||$\int\dfrac{1}{x^2-a^2}{\rm d}x=\dfrac{1}{2a}\ln\lvert\dfrac{x-a}{x+a}\rvert$|
+||$\int\dfrac{1}{x^2+a^2}{\rm d}x=\dfrac{1}{a}\arctan\dfrac{x}{a}$|
+||$\int\dfrac{1}{\sqrt{a^2-x^2}}{\rm d}x=\arcsin\dfrac{x}{a}$|
+||$\int\dfrac{1}{\sqrt{x^2+a^2}}{\rm d}x=\ln(x+\sqrt{x^2+a^2})$
+||$\int\dfrac{1}{\sqrt{x^2-a^2}}{\rm d}x=\ln\lvert x+\sqrt{x^2-a^2}\rvert$
