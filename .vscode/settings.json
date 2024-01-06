@@ -8,7 +8,7 @@
         "layouts": true,
         "public": true,
         "resources": true,
-        "static": true,
+        // "static": true,
         "themes": true
     }
 }
