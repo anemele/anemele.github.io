@@ -8,10 +8,9 @@ featured_image = '/images/Jupyter.svg'
 
 Jupyter 是一个对于交互式编程十分友好的工具。
 
-Jupyter 是使用 Python 开发的 Web 程序，
-
 <!--more-->
 
+Jupyter 是使用 Python 开发的 Web 程序，
 最初为了支持 Python 在科学计算方面的应用，
 之后开发人员为 Jupyter 添加了很多内核，使其可以支持更多编程语言，具体参考
 <https://github.com/jupyter/jupyter/wiki/Jupyter-kernels>
@@ -50,8 +49,7 @@ jupyter-kernelspec remove {name}
 （创建一个虚拟环境）
 
 ```bash
-python -m pip install ipykernel
-python -m ipykernel --version
+pip install ipykernel
 python -m ipykernel install --user --name {} --display-name {}
 ```
 
@@ -82,8 +80,7 @@ IRkernel::installspec()
 npm i -g ijavascript
 ```
 
-### Java
+### Go
 
-下载内核
-[SpencerPark/IJava](https://github.com/SpencerPark/IJava)
-然后执行 `install.py`
+See
+<https://github.com/gopherdata/gophernotes?tab=readme-ov-file#installation>
