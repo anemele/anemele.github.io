@@ -11,9 +11,12 @@ Windows 用户只需下载启动器
 [rustup](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe)
 运行即可。
 
-为了方便下载，在运行启动器之前先设置两个环境变量，使用国内镜像加速：
+为了方便下载，在运行启动器之前先设置两个环境变量（**建议设置为永久环境变量**），
+使用国内镜像加速：
 
 ```bat
+@REM set RUSTUP_DIST_SERVER=https://rsproxy.cn
+@REM set RUSTUP_UPDATE_ROOT=https://rsproxy.cn/rustup
 set RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 set RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 ```
