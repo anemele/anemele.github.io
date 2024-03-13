@@ -14,11 +14,24 @@ Windows 用户只需下载启动器
 为了方便下载，在运行启动器之前先设置两个环境变量（**建议设置为永久环境变量**），
 使用国内镜像加速：
 
+以 Windows 为例
+
 ```bat
-@REM set RUSTUP_DIST_SERVER=https://rsproxy.cn
-@REM set RUSTUP_UPDATE_ROOT=https://rsproxy.cn/rustup
+set RUSTUP_DIST_SERVER=https://rsproxy.cn
+set RUSTUP_UPDATE_ROOT=https://rsproxy.cn/rustup
+@REM 永久环境变量
+setx RUSTUP_DIST_SERVER https://rsproxy.cn
+setx RUSTUP_UPDATE_ROOT https://rsproxy.cn/rustup
+```
+
+或者
+
+```bat
 set RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 set RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+@REM 永久环境变量
+setx RUSTUP_DIST_SERVER https://mirrors.ustc.edu.cn/rust-static
+setx RUSTUP_UPDATE_ROOT https://mirrors.ustc.edu.cn/rust-static/rustup
 ```
 
 设置好环境变量，运行启动器（一般选择默认配置），在网络良好的情况下很快就完成 Rust 的安装。
