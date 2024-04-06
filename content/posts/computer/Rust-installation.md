@@ -52,3 +52,7 @@ index = "https://rsproxy.cn/crates.io-index"
 [net]
 git-fetch-with-cli = true
 ```
+
+在 Windows 平台安装并选择 MSVC 工具链时，需要下载
+[MSVC Build Tools（Microsoft C++ 生成工具 - Visual Studio）](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)，
+安装 C++ Desktop Development ，其中**必选的两项**是 `MSVC vxxx 生成工具` 和 `Windows SDK` ，根据自己的平台选择。
