@@ -68,19 +68,20 @@ categories = 'film'
 
 于是做以下约定：
 
-在电影文件夹里新建一个名为 poster 的文件夹，在 poster 里存放名为 cover.* 的图片文件（即 cover.jpg、cover.png 等，一张足矣）。
+在电影文件夹里存放名为 cover.* 的图片文件，即 cover.jpg、cover.png 等，一张即可。
+如果存在多张，则自动选取合适的图片。
 
-编写 Python 脚本，输入电影文件夹路径，自动读取 poster 文件夹及其中的 cover 文件，在 poster 下生成 cover.ico 文件。在电影文件夹下创建 desktop.ini 文件，写入配置，设置“系统”、“隐藏”属性。给电影文件夹设置“只读”属性。
-
-![](7xs1cz.png)
+1. 生成 icon.ico 文件并设置隐藏属性。
+2. 在电影文件夹下创建 desktop.ini 文件，写入配置，设置“系统”、“隐藏”属性。
+3. 给电影文件夹设置“只读”属性。
 
 ```ini
 [.ShellClassInfo]
-IconResource=poster\cover.ico,0
+IconResource=icon.ico,0
 ```
 
-经过测试， perfect ！
+---
 
-另外一些脚本细节不再赘述，包括通配符批量设置，过滤器避免重复等。
-
-完整项目 [anemele/make-film-cover](https://github.com/anemele/make-film-cover)
+原程序使用 Python 编写，由于依赖 C 库，程序迁移麻烦。
+现使用 Rust 重写，完整项目见
+[anemele/make-film-cover-rs](https://github.com/anemele/make-film-cover-rs)
