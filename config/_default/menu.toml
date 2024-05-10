@@ -1,0 +1,35 @@
+# see: https://stack.jimmycai.com/config/menu
+
+# Configure main menu and social menu
+[[main]]
+identifier = "home"
+name = "Home"
+url = "/"
+# Priority of the item, lower value means higher priority.
+weight = -999
+[main.params]
+icon = "home"
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/anemele"
+
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com/elonmusk"
+
+[social.params]
+icon = "brand-twitter"
+
+[[social]]
+identifier = "bilibili"
+name = "bilibili"
+url = "https://space.bilibili.com/208259"
+
+[social.params]
+icon = "brand-bili"

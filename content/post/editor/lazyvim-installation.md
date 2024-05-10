@@ -1,6 +1,7 @@
 +++
 title = 'LazyVim 安装'
 date = 2023-12-20T14:25:18+08:00
+lastmod = 2024-05-10T21:42:21+08:00
 tags = ['lazyvim', 'nvim']
 categories = 'editor'
 +++
