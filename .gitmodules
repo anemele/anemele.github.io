@@ -1,3 +1,9 @@
 [submodule "themes/diary"]
 	path = themes/diary
 	url = git@github.com:AmazingRise/hugo-theme-diary.git
+[submodule "themes/techdoc"]
+	path = themes/techdoc
+	url = git@github.com:thingsym/hugo-theme-techdoc.git
+[submodule "themes/themes/techdoc"]
+	path = themes/themes/techdoc
+	url = git@github.com:thingsym/hugo-theme-techdoc.git

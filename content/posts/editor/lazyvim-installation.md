@@ -20,7 +20,7 @@ Windows 路径为 `~\AppData\Local\nvim` ， Linux/macOS 路径为 `~/.config/nv
 克隆到 `nvim` 目录。如果网络顺畅，直接进入 neovim
 
 ```
-git clone https://github.com/LazyVim/starter ~\AppData\Local\nvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim
 nvim
 ```
 
@@ -30,7 +30,7 @@ nvim
 这里的解决方案是选择 SSH 协议或者使用镜像站，推荐使用 SSH 协议，但需要预先配置 SSH 公钥。
 
 ```
-git clone git@github.com:LazyVim/starter ~\AppData\Local\nvim
+git clone git@github.com:LazyVim/starter ~/.config/nvim
 ```
 
 第二步修改启动器里的链接，启动器路径： `nvim/lua/config/lazy.lua`
@@ -50,11 +50,13 @@ git = { url_format = "git@github.com:%s.git" },
 之后进入 neovim 即可正常启动。如果先前使用 HTTPS 启动一次失败了，要先清除缓存，
 即删除 `nvim-data/lazy` 目录，然后重新启动。
 
-另外 lsp 管理插件 mason 会遇上 GitHub release 下载链接被重置的问题，
-解决办法是使用镜像或加速：修改文件
-`nvim-data/lazy/mason.nvim/lua/mason/settings.lua`
-约 55 行的 `download_url_template` 为镜像站，如 `https://hub.nuaa.cf`
+另外 mason 插件会遇上 GitHub release 下载链接被重置的问题，解决办法是使用镜像。
+在 `nvim/lua/config/lazy.lua` 后加上
 
 ```lua
-download_url_template = "https://hub.nuaa.cf/%s/releases/download/%s/%s",
+require("mason").setup({
+  github = {
+    download_url_template = "https://hub.nuaa.cf/%s/releases/download/%s/%s",
+  }
+})
 ```
