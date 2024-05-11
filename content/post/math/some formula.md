@@ -3,7 +3,7 @@ title = '一些公式'
 date = 2023-12-26T17:41:37+08:00
 tags = ['']
 categories = 'math'
-enableLaTeX = true
+math = true
 +++
 
 记录一些公式，排列较为混乱，凑合看看吧。

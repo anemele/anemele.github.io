@@ -3,7 +3,7 @@ title = '斐波那契数'
 date = 2023-11-05T19:06:01+08:00
 tags = ['']
 categories = 'algorithm'
-enableLaTeX = true
+math = true
 +++
 
 

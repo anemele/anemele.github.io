@@ -1,3 +1,3 @@
 [frontmatter]
-date = ["lastmod", "date", ":git"]
-lastmod = ["lastmod", ":git"]
+date = ["date", "lastmod"]
+lastmod = ["lastmod", "date"]

@@ -3,7 +3,7 @@ title = '变限积分的无穷小阶'
 date = 2023-12-26T16:21:10+08:00
 tags = ['']
 categories = 'math'
-enableLaTeX = true
+math = true
 +++
 
 对于

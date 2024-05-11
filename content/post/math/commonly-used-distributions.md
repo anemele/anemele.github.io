@@ -3,7 +3,7 @@ title = '常用随机分布'
 date = 2024-01-10T21:03:37+08:00
 tags = ['']
 categories = 'math'
-enableLaTeX = true
+math = true
 +++
 
 |名称|参数|概率公式|期望|方差|

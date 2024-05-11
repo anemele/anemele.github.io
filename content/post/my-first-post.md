@@ -1,10 +1,13 @@
-+++
-title = 'My First Post'
-date = 2023-10-26T20:37:14+08:00
-tags = ['blog', 'markdown', 'math']
-categories = 'computer'
-enableLaTeX = true
-+++
+---
+title: My First Post
+date: 2023-10-26
+tags:
+ - blog
+ - markdown
+ - math
+categories: computer
+math: true
+---
 
 # Introduction
 

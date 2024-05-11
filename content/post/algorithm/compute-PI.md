@@ -3,7 +3,7 @@ title = '计算圆周率'
 date = 2023-11-05T19:05:14+08:00
 tags = ['series']
 categories = 'algorithm'
-enableLaTeX = true
+math = true
 +++
 
 圆周率的计算更多的是数学问题，但计算机的算力很大程度上推进了圆周率算法的研究。

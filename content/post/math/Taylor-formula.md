@@ -3,7 +3,7 @@ title = '等价无穷小/泰勒公式'
 date = 2024-01-10T20:46:57+08:00
 tags = ['']
 categories = 'math'
-enableLaTeX = true
+math = true
 +++
 
 # 指数函数
