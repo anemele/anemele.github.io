@@ -1,10 +1,11 @@
-+++
-title = '一些公式'
-date = 2023-12-26T17:41:37+08:00
-tags = ['']
-categories = 'math'
-math = true
-+++
+---
+title: 一些公式
+date: 2023-12-26
+tags:
+ - formula
+categories: math
+math: true
+---
 
 记录一些公式，排列较为混乱，凑合看看吧。
 
@@ -146,7 +147,7 @@ $$
 # 斯托克斯公式
 
 $$
-\oint P{\rm d}x+Q{\rm d}y+R{\rm d}z=\iint\bf{rot\;F}{\rm d}S
+\oint P{\rm d}x+Q{\rm d}y+R{\rm d}z=\iint\bf{rot}\\;\bf{F}{\rm d}S
 $$
 
 旋度

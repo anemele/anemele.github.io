@@ -1,9 +1,11 @@
-+++
-title = 'Python 脚本入口'
-date = 2023-12-20T14:24:18+08:00
-tags = ['entry']
-categories = 'python'
-+++
+---
+title: Python 脚本入口
+date: 2023-12-20
+tags:
+ - Python
+ - entry
+categories: computer
+---
 
 Windows 下的 Python 安装第三方库时会在解释器同目录下的子目录 `Scripts` 里
 安装很多 100 KB 左右的 exe 文件，执行这些文件可以执行第三方库的某些功能。

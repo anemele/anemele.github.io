@@ -1,9 +1,12 @@
-+++
-title = '初识算法之威：算法复杂度'
-date = 2023-03-20T15:22:37+08:00
-tags = ['alg', 'complexity']
-categories = 'algorithm'
-+++
+---
+title: 初识算法之威：算法复杂度
+date: 2023-03-20
+tags:
+ - algorithm
+ - alg
+ - complexity
+categories: algorithm
+---
 
 疑问：时间复杂度与空间复杂度的乘积是定值吗？
 

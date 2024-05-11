@@ -1,10 +1,11 @@
-+++
-title = '安装 Jupyter kernel'
-date = 2024-01-06T14:19:58+08:00
-tags = ['jupyter', 'kernel']
-categories = 'Jupyter'
-featured_image = '/images/Jupyter.svg'
-+++
+---
+title: 安装 Jupyter kernel
+date: 2024-01-06
+tags:
+ - jupyter
+categories: computer
+image: Jupyter.svg
+---
 
 Jupyter 是一个对于交互式编程十分友好的工具。
 

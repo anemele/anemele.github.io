@@ -1,9 +1,12 @@
-+++
-title = 'Windows 设置 python 可执行'
-date = 2023-12-20T13:25:15+08:00
-tags = ['shebang','python','Windows']
-categories = 'python'
-+++
+---
+title: Windows 设置 python 可执行
+date: 2023-12-20
+tags:
+ - Python
+ - Windows
+ - shebang
+categories: computer
+---
 
 ## 前言
 

@@ -1,11 +1,11 @@
-+++
-title = '直角、柱、球坐标系转换'
-date = 2023-12-26T17:26:38+08:00
-draft = true
-tags = ['']
-categories = 'math'
-math = true
-+++
+---
+title: 直角、柱、球坐标系转换
+date: 2023-12-26
+tags:
+ - formula
+categories: math
+math: true
+---
 
 ***不知为何无法渲染公式，暂时不用管它。***
 

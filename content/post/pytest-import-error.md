@@ -1,9 +1,11 @@
-+++
-title = 'pytest 遇到 import 导入错误'
-date = 2024-01-19T22:24:25+08:00
-tags = ['pytest']
-categories = 'Python'
-+++
+---
+title: pytest 遇到 import 导入错误
+date: 2024-01-19
+tags:
+ - pytest
+ - import
+categories: computer
+---
 
 pytest 是很好用的 Python 测试框架，比标准库 unittest 好用太多。
 

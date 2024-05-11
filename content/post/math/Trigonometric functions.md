@@ -1,10 +1,11 @@
-+++
-title = '三角函数公式'
-date = 2023-12-26T16:08:49+08:00
-tags = ['']
-categories = 'math'
-math = true
-+++
+---
+title: 三角函数公式
+date: 2023-12-26
+tags:
+ - formula
+categories: math
+math: true
+---
 
 # 三角函数
 

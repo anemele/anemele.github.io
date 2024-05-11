@@ -1,10 +1,11 @@
-+++
-title = '二阶常系数线性齐次微分方程共轭复根通解思考'
-date = 2023-11-21T17:36:03+08:00
-tags = ['differential equation']
-categories = 'math'
-math = true
-+++
+---
+title: 二阶常系数线性齐次微分方程共轭复根通解思考
+date: 2023-11-21
+tags:
+ - differential equation
+categories: math
+math: true
+---
 
 二阶常系数线性齐次微分方程形如：
 

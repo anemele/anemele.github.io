@@ -1,10 +1,11 @@
-+++
-title = '常用初等函数微积分'
-date = 2023-12-26T16:48:56+08:00
-tags = ['']
-categories = 'math'
-math = true
-+++
+---
+title: 常用初等函数微积分
+date: 2023-12-26
+tags:
+ - formula
+categories: math
+math: true
+---
 
 *不定积分需要 $+C$，下面都省略了。验证两个不定积分结果是否相等的方法是求导。*
 

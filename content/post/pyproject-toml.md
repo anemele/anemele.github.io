@@ -1,10 +1,11 @@
-+++
-title = 'Python 项目管理'
-date = 2023-06-22T22:19:12+08:00
-lastmod = 2023-11-05T22:22:22+08:00
-tags = ['Python', 'pyproject']
-categories = 'python'
-+++
+---
+title: Python 项目管理
+date: 2023-06-22
+tags:
+ - Python
+ - pyproject
+categories: computer
+---
 
 
 最近迷上了各自编程语言的项目管理，才发现以前的编程方式是多么简陋，放着这么多先进工具不使用，反而手动处理各自问题。

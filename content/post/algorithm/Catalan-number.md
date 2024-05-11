@@ -1,10 +1,12 @@
-+++
-title = '卡特兰数'
-date = 2023-11-05T19:01:44+08:00
-tags = ['stack']
-categories = 'algorithm'
-math = true
-+++
+---
+title: 卡特兰数
+date: 2023-11-05
+tags:
+ - Catalan
+ - stack
+categories: algorithm
+math: true
+---
 
 卡特兰数 Catalan number 是一个数列，可以用在计算 n 个元素进出栈的情况数目。例如一个序列以 `1 2 3 4` 的顺序入栈，有多少种出栈情况？
 

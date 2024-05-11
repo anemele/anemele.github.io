@@ -1,11 +1,11 @@
-+++
-title = '斐波那契数'
-date = 2023-11-05T19:06:01+08:00
-tags = ['']
-categories = 'algorithm'
-math = true
-+++
-
+---
+title: 斐波那契数
+date: 2023-11-05
+tags:
+ - Fibonacci
+categories: algorithm
+math: true
+---
 
 斐波那契数列 Fibonacci 是一个经典数列问题，应用十分广泛。
 

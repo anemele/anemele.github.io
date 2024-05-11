@@ -1,9 +1,11 @@
-+++
-title = '异或解密案例'
-date = 2022-04-09T16:22:13+08:00
-tags = ['xor', 'crypto']
-categories = 'algorithm'
-+++
+---
+title: 异或解密案例
+date: 2022-04-09
+tags:
+ - crypto
+ - xor
+categories: algorithm
+---
 
 # 案例
 
