@@ -7,10 +7,6 @@ categories: math
 math: true
 ---
 
-***不知为何无法渲染公式，暂时不用管它。***
-
----
-
 常用的坐标系有三类：
 
 - 直角坐标系（Cartesian）
