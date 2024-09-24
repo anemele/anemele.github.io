@@ -58,7 +58,17 @@ git = { url_format = "git@github.com:%s.git" },
 ```lua
 require("mason").setup({
   github = {
-    download_url_template = "https://hub.nuaa.cf/%s/releases/download/%s/%s",
+    -- 此处为镜像链接
+    download_url_template = "https://github.com/%s/releases/download/%s/%s",
   }
 })
 ```
+
+镜像链接多不稳定，以下列出几个作为参考：
+
+```text
+https://hub.nuaa.cf/%s/releases/download/%s/%s
+https://hub.yzuu.cf/%s/releases/download/%s/%s
+https://dgithub.xyz/%s/releases/download/%s/%s
+https://mirror.ghproxy.com/https://github.com/%s/releases/download/%s/%s
+
