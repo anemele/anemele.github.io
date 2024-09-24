@@ -15,3 +15,10 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 tabWidth = 4
+
+# ref: https://www.yoghurtlee.com/hugo-math-rendering#%e8%ae%be%e7%bd%ae-passthrough-%e6%8f%92%e4%bb%b6
+# solve double backslash problem
+[goldmark.extensions.passthrough]
+enable = true
+delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
+delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
