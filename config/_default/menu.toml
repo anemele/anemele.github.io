@@ -25,11 +25,3 @@ url = "https://twitter.com/elonmusk"
 
 [social.params]
 icon = "brand-twitter"
-
-[[social]]
-identifier = "bilibili"
-name = "bilibili"
-url = "https://space.bilibili.com/208259"
-
-[social.params]
-icon = "brand-bili"
