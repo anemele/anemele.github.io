@@ -50,14 +50,15 @@ categories: ctf
 
 ```python
 import zipfile
-z = zipfile.ZipFile('what.zip')
+
+z = zipfile.ZipFile("what.zip")
 for x in range(1000000):
-	pwd = bytes(f'{x:06d}', 'ascii')
-	try:
-		z.extractall(pwd=pwd)
-		print(x)
-	except RuntimeError:
-		pass
+    pwd = bytes(f"{x:06d}", "ascii")
+    try:
+        z.extractall(pwd=pwd)
+        print(x)
+    except RuntimeError:
+        pass
 ```
 
 中间遇到一次错误： `zlib.error: Error -3 while decompressing data: invalid stored block lengths`，以为是压缩包有问题。考虑到图种里有 4 个 `PK`，可能存在压缩包混淆，将其余 3 个以同样的方式保存到新的文件，分别命名 `what2.zip`[^what2.zip] `what3.zip`[^what3.zip] `what4.zip`[^what4.zip] ，但是这 3 个文件都不能用压缩软件打开。
@@ -72,13 +73,48 @@ Congratulations!
 QQ Group: 170776629
 ```
 
-后续完善程序[参考附件][^q2.py]。
+完善程序
+
+```python
+import zipfile
+
+z = zipfile.ZipFile("what.zip")
+for x in range(1000000):
+    x = f"{x:06d}"
+    try:
+        z.extractall(pwd=x.encode())
+    except Exception:
+        continue
+    print(x)
+    break
+else:
+    raise RuntimeError
+```
 
 # 补充
 
 把群号输入问题三，果然猜测正确。用调试器定位猜测按钮的事件回调函数，发现里面并没有明文给出群号，而是用 `qqgroup` 作为 salt 判断猜测群号的 MD5 与给定的是否一致。从哈希值反推明文可是十分困难的，也许从在线查询 MD5 网站可以获得结果，但尝试了一些，都失败了。
 
-考虑到 QQ 号是 9 位数字，也可以用爆破方法计算，程序参考附件[^q3.py]。
+考虑到 QQ 号是 9 位数字，也可以用爆破方法计算，参考程序
+
+```python
+# raise DeprecationWarning("计算成功需要耗费几分钟，仅作参考。")
+import hashlib
+
+target = "307bff0333b2b42af8620f2295022fe3"
+
+
+def f(x):
+    return hashlib.md5(f"qqgroup{x}".encode()).hexdigest()
+
+
+for i in range(100000000, 1000000000):
+    if f(i) == target:
+        print(i)
+        break
+else:
+    raise RuntimeError
+```
 
 # 附件
 
