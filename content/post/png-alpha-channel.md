@@ -10,7 +10,7 @@ categories: Image processing
 ---
 
 PNG 图片 alpha 通道处理，即透明度如何影响图片显示，也就是之前在
-[幻影坦克图片原理](./mirage-tank/index.md)
+[幻影坦克图片原理](/post/mirage-tank)
 里面提到的「PNG 混色原理」。
 
 <!--more-->
