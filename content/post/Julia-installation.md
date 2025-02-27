@@ -22,19 +22,19 @@ juliaup mirror 可以参考 [jill](https://github.com/johnnychen94/jill.py/blob/
 
 ```bash
 # *nix
-export JULIAUP_SERVER=https://mirrors.ustc.edu.cn/julia-releases
+export JULIAUP_SERVER=https://mirrors.nju.edu.cn/julia-releases
 ```
 
 ```batch
 @REM Windows
-set JULIAUP_SERVER=https://mirrors.ustc.edu.cn/julia-releases
+set JULIAUP_SERVER=https://mirrors.nju.edu.cn/julia-releases
 ```
 
-Julia 镜像参考[Julia 镜像使用帮助 — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/julia.html#id5)
+Julia 包镜像
 
 ```julia
 # ~/.julia/config/startup.jl
-ENV["JULIA_PKG_SERVER"] = "https://mirrors.ustc.edu.cn/julia"
+ENV["JULIA_PKG_SERVER"] = "https://mirrors.nju.edu.cn/julia"
 ```
 
 [^juliaup-mirror]: https://github.com/JuliaLang/juliaup?tab=readme-ov-file#juliaup-server
