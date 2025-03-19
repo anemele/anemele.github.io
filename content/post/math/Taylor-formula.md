@@ -7,19 +7,19 @@ categories: math
 math: true
 ---
 
-# 指数函数
+## 指数函数
 
 $$
 e^x-1=x+\frac{x^2}{2}+\frac{x^3}{6}\dots+\frac{x^n}{n!}\dots
 $$
 
-# 对数函数
+## 对数函数
 
 $$
 \ln(x+1)=x-\frac{x^2}{2}+\frac{x^3}{3}\dots+(-1)^{n+1}\frac{x^n}{n}\dots
 $$
 
-# 三角函数
+## 三角函数
 
 $$
 \sin(x)=x-\frac{x^3}{6}\dots+(-1)^{n+1}\frac{x^{2n-1}}{(2n-1)!}\dots
@@ -41,7 +41,7 @@ $$
 \arctan(x)=x-\frac{x^3}{3}\dots
 $$
 
-# 幂函数
+## 幂函数
 
 $$
 \frac{1}{1-x}=1+x+x^2\dots=\sum_{n=0}^{\infty}x^n

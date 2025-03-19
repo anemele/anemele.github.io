@@ -15,7 +15,7 @@ categories: computer
 
 >不知道乱码的英文是什么？
 
-# 中文乱码
+## 中文乱码
 
 以中文编码为例，中文编码主要包括
 
@@ -27,7 +27,7 @@ categories: computer
 
 > ISO8859-1 无法编码汉字？
 
-# 常见乱码
+## 常见乱码
 
 （Python 程序生成，错误处理方式默认 strict，出现错误采用 replace）
 
@@ -43,7 +43,7 @@ categories: computer
 
 ---
 
-# 附 Python 程序
+## 附 Python 程序
 
 ```python
 table = [

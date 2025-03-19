@@ -16,7 +16,7 @@ categories: computer
 <!--more-->
 
 
-# 项目管理文件
+## 项目管理文件
 
 Python 早期是 `pip virtualenv pipreqs requirements` 组合，现在有了某 PEP 提出的 `pyproject.toml` ，并且得到很多支持。pypa 的 pip 对此支持还不够好，推荐使用 poetry ，有点类似 yarn 之于 npm 。
 
@@ -32,7 +32,7 @@ Python 早期是 `pip virtualenv pipreqs requirements` 组合，现在有了某 
 
 *231105 补充： C++ 有一个 xmake 也很好用*
 
-# 依赖版本规则
+## 依赖版本规则
 
 包管理的依赖一般使用语义版本（semantic version, semver）格式，即版本号由 `major.minor.micro` 组成。为方便说明，以下使用 `x.y.z` 。
 

@@ -7,7 +7,7 @@ categories: math
 math: true
 ---
 
-# 三角函数
+## 三角函数
 
 对于直角三角形 ABC ，C 是直角，a b c 分别是角 A B C 对应的边，
 可以得到三角函数：
@@ -28,7 +28,7 @@ $\sec A=\dfrac{1}{\cos A}=\dfrac{c}{b}$
 余割函数
 $\csc A=\dfrac{1}{\sin A}=\dfrac{c}{a}$
 
-# 正/余弦定理
+## 正/余弦定理
 
 正弦定理， R 是外接圆半径
 
@@ -42,7 +42,7 @@ $$
 c^2=a^2+b^2-2ab\cos C
 $$
 
-# 两角和差
+## 两角和差
 
 <!-- 解决 MathJax 不能换行问题：将双反斜杠换成四反斜杠。
 参考：https://blog.csdn.net/xm_ovo/article/details/107536132
@@ -55,7 +55,7 @@ $$
 \cos(A-B)=\cos A\cos B+\sin A\sin B
 $$
 
-# 倍角公式
+## 倍角公式
 
 $$
 \begin{aligned}
@@ -64,7 +64,7 @@ $$
 \end{aligned}
 $$
 
-# 三倍角公式
+## 三倍角公式
 
 $$
 \begin{aligned}
@@ -73,7 +73,7 @@ $$
 \end{aligned}
 $$
 
-# 半角公式
+## 半角公式
 
 $$
 \begin{aligned}
@@ -83,7 +83,7 @@ $$
 \end{aligned}
 $$
 
-# 积化和差
+## 积化和差
 
 $$
 \begin{aligned}
@@ -97,7 +97,7 @@ $$
 \end{aligned}
 $$
 
-# 和差化积
+## 和差化积
 
 $$
 \begin{aligned}

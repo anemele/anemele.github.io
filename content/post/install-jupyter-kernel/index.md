@@ -17,7 +17,7 @@ Jupyter 是使用 Python 开发的 Web 程序，
 <https://github.com/jupyter/jupyter/wiki/Jupyter-kernels>
 。
 
-# 安装 Jupyter
+## 安装 Jupyter
 
 早期的 Jupyter 环境是 notebook ，现在推荐使用 lab 。
 首先要有 Python 环境（可以创建一个虚拟环境），使用 pip 安装
@@ -29,23 +29,23 @@ pip install jupyterlab
 等待安装完成。
 jupyterlab 自带一个默认的 Python 内核，名为 `ipykernel` 。
 
-# 内核操作
+## 内核操作
 
-## 列出内核
+### 列出内核
 
 ```bash
 jupyter-kernelspec list
 ```
 
-## 删除内核
+### 删除内核
 
 ```bash
 jupyter-kernelspec remove {name}
 ```
 
-## 安装内核
+### 安装内核
 
-### Python
+#### Python
 
 （创建一个虚拟环境）
 
@@ -54,7 +54,7 @@ pip install ipykernel
 python -m ipykernel install --user --name {} --display-name {}
 ```
 
-### Julia
+#### Julia
 
 ```julia
 using Pkg
@@ -63,7 +63,7 @@ using IJulia
 installkernel("Julia")
 ```
 
-### R
+#### R
 
 ```r
 install.packages('devtools', type='binary')
@@ -75,13 +75,13 @@ install.packages('IRkernel')
 IRkernel::installspec()
 ```
 
-### JavaScript
+#### JavaScript
 
 ```JavaScript
 npm i -g ijavascript
 ```
 
-### Go
+#### Go
 
 See
 <https://github.com/gopherdata/gophernotes?tab=readme-ov-file#installation>

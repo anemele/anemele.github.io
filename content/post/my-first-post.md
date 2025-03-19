@@ -9,7 +9,7 @@ categories: computer
 math: true
 ---
 
-# Introduction
+## Introduction
 
 This is my first blog built by [Hugo](https://gohugo.io).
 
@@ -19,13 +19,13 @@ Contact me at <anemele@outlook.com>
 
 <!--more-->
 
-# Markdown
+## Markdown
 
-## h2
+### h2
 
-### h3
+#### h3
 
-#### h4
+##### h4
 
 The smallest level of head is 4.
 
@@ -73,7 +73,7 @@ This is a table
 | Hexo | JavaScript |
 | Jekyll | Ruby |
 
-# Reference
+## Reference
 
 1. <https://gohugo.io/getting-started/quick-start/>
 2. <https://markdown.com.cn/basic-syntax/>

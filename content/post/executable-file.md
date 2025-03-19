@@ -7,7 +7,7 @@ tags:
 categories: computer
 ---
 
-# 可执行文件格式
+## 可执行文件格式
 
 Windows 的可执行文件（包括 EXE DLL SYS COM 等）使用 PE（Portable Executable）文件格式。
 
@@ -21,7 +21,7 @@ Unix-Like 的通用对象文件格式（COFF, Common Object File Format）是很
 
 *可执行包括直接执行与间接调用。*
 
-# PE
+## PE
 
 PE 结构可在编译器头文件库查看。
 

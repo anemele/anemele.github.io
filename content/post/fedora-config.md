@@ -8,7 +8,7 @@ tags:
 categories: os
 ---
 
-# neovim
+## neovim
 
 fedora 安装 neovim 后无法打开，总是提示
 `nvim: symbol lookup error: /lib64/libluv.so.1: undefined symbol: uv_thread_getpriority`
