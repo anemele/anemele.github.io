@@ -1,6 +1,7 @@
 ---
 title: 收藏电影
 date: 2023-06-20
+lastmod: 2025-04-05
 tags:
  - film
 categories: experience
@@ -71,7 +72,7 @@ categories: experience
 于是做以下约定：
 
 在电影文件夹里存放名为 cover.* 的图片文件，即 cover.jpg、cover.png 等，一张即可。
-如果存在多张，则自动选取合适的图片。
+如果存在多张，则按默认顺序选取图片。
 
 1. 生成 icon.ico 文件并设置隐藏属性。
 2. 在电影文件夹下创建 desktop.ini 文件，写入配置，设置“系统”、“隐藏”属性。
@@ -84,6 +85,7 @@ IconResource=icon.ico,0
 
 ---
 
-原程序使用 Python 编写，由于依赖 C 库，程序迁移麻烦。
-现使用 Rust 重写，完整项目见
-[anemele/make-film-cover-rs](https://github.com/anemele/make-film-cover-rs)
+完整程序：
+[anemele/make-film-cover](https://github.com/anemele/make-film-cover)
+
+原程序使用 Python 编写，由于依赖运行时，迁移麻烦，改用 Rust 重写。
