@@ -1,6 +1,7 @@
 ---
 title: 什么是 GNU ？
 date: 2023-11-05
+lastmod: 2025-04-17T22:54:15+08:00
 tags:
  - GNU
 categories: computer
@@ -12,7 +13,7 @@ categories: computer
 >
 > \-  GNU is Not Unix 的缩写。
 >
-> \-  那 GUN 是什么？
+> \-  那 GNU 是什么？
 >
 > \-  我已经回答了。
 >

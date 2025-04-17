@@ -1,6 +1,7 @@
 ---
 title: Python 脚本入口
 date: 2023-12-20
+lastmod: 2025-04-17T22:57:18+08:00
 tags:
  - Python
  - entry
@@ -56,4 +57,17 @@ setup(
 
 关于移动 Python 后 pip 失效的问题，如果看完以上资料就明白失效的原因了： pip.exe 内置了 Python 解释器的绝对路径。解决办法就是重新安装 pip 或者更正 pip.exe 内绝对路径，如果是虚拟环境可以选择重建。
 
-更正 pip.exe 内置路径可以参考 [anemele/repair-venv](https://github.com/anemele/repair-venv) 。
+**补充二**
+
+pyproject.toml 里定义 `[project.scripts]` 字段即可在安装时生成 entry_points 文件：
+
+```toml
+[project.scripts]
+foo = demo.cli:main
+bar = demo.core.main:main
+```
+
+Linux 系统的 entry_points 在 `bin` 目录下，是一个可执行的 python 文件，
+其 shebang 指向当前环境的解释器。
+对比 Linux 可以发现，Windows 的 entry_points 本质就是将这个 python 文件用
+exe 模板包装，查看其字节编码末尾部分，正是该文件的文本内容。
