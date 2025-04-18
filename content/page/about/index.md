@@ -1,6 +1,6 @@
 ---
 title: About
-description: about
+description: This Jason Swift's blog site
 date: 2025-04-18
 license: CC BY-NC-ND
 menu:
@@ -10,4 +10,4 @@ menu:
             icon: user
 ---
 
-about
+Nothing.

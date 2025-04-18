@@ -15,3 +15,14 @@ hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
 disqusShortname = "hugo-theme-stack"
+
+# do not know what these settings do
+[frontmatter]
+date = ["date", "lastmod"]
+lastmod = ["lastmod", "date"]
+
+# Set the RSS name
+# See: https://github.com/CaiJimmy/hugo-theme-stack/issues/376#issuecomment-940739651
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "rss"

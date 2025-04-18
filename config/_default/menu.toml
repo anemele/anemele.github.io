@@ -21,7 +21,7 @@ icon = "brand-github"
 [[social]]
 identifier = "rss"
 name = "RSS"
-url = "/index.xml"
+url = "/rss.xml"
 
 [social.params]
 icon = "rss"
