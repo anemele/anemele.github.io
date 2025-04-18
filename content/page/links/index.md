@@ -7,7 +7,7 @@ links:
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   - title: Some Sites
     description: Some Sites
-    website: /some-sites/
+    website: https://anemele.github.io/some-sites/
     image: website.svg
 menu:
     main:

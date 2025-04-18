@@ -19,9 +19,9 @@ url = "https://github.com/anemele"
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com/elonmusk"
+identifier = "rss"
+name = "RSS"
+url = "/index.xml"
 
 [social.params]
-icon = "brand-twitter"
+icon = "rss"
