@@ -34,13 +34,13 @@ jupyterlab 自带一个默认的 Python 内核，名为 `ipykernel` 。
 ### 列出内核
 
 ```bash
-jupyter-kernelspec list
+jupyter kernelspec list
 ```
 
 ### 删除内核
 
 ```bash
-jupyter-kernelspec remove {name}
+jupyter kernelspec remove {name}
 ```
 
 ### 安装内核
@@ -74,14 +74,3 @@ or
 install.packages('IRkernel')
 IRkernel::installspec()
 ```
-
-#### JavaScript
-
-```JavaScript
-npm i -g ijavascript
-```
-
-#### Go
-
-See
-<https://github.com/gopherdata/gophernotes?tab=readme-ov-file#installation>
