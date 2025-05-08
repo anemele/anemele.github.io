@@ -1,6 +1,7 @@
 ---
 title: Rust 编程语言安装教程
 date: 2024-01-20
+lastmod: 2025-05-08T11:00:00+08:00
 tags:
  - Rust
  - installation
