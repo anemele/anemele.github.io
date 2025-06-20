@@ -48,11 +48,11 @@ setx RUSTUP_UPDATE_ROOT https://mirrors.ustc.edu.cn/rust-static/rustup
 [source.crates-io]
 replace-with = 'rsproxy-sparse'
 [source.rsproxy]
-registry = "https://rsproxy.cn/crates.io-index"
+registry = 'https://rsproxy.cn/crates.io-index'
 [source.rsproxy-sparse]
-registry = "sparse+https://rsproxy.cn/index/"
+registry = 'sparse+https://rsproxy.cn/index/'
 [registries.rsproxy]
-index = "https://rsproxy.cn/crates.io-index"
+index = 'https://rsproxy.cn/crates.io-index'
 [net]
 git-fetch-with-cli = true
 ```
@@ -68,8 +68,8 @@ git-fetch-with-cli = true
 首先添加环境变量（`~/.bashrc`）并 source
 
 ```bash
-export RUSTUP_DIST_SERVER="https://rsproxy.cn"
-export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+export RUSTUP_DIST_SERVER=https://rsproxy.cn
+export RUSTUP_UPDATE_ROOT=https://rsproxy.cn/rustup
 ```
 
 然后执行
