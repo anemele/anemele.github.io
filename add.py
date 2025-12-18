@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """Add new post."""
 
 from datetime import datetime
