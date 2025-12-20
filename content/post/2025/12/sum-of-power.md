@@ -1,7 +1,7 @@
 ---
 title: 幂和问题
-date: 2025-12-19
-lastmod: 2025-12-19
+date: 2025-12-20T01:15:43+0800
+lastmod: 2025-12-20T01:15:43+0800
 draft: false
 tags:
  - power

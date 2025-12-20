@@ -1,7 +1,7 @@
 ---
 title: 贝塞尔曲线 Bézier/Bezier curve
-date: 2025-12-20
-lastmod: 2025-12-20
+date: 2025-12-20T02:56:29+0800
+lastmod: 2025-12-20T02:56:29+0800
 draft: true
 tags:
  - Bezier curve
@@ -80,8 +80,8 @@ function gen_i(n, i)
     a = binomial(n, i)
     s = 0:n-i
     b = binomial.(n-i, s)
-    c = (-1).^s
-    a .* b .* c
+    c = (-1) .^ s
+    @. a * b * c
 end
 
 function gen_bernstein_matrix(n)
@@ -104,9 +104,9 @@ using Plots
 
 function calc_and_plot_bezier_curve(points)
     cps = calcute_bezier_curve(points)
-    scatter(points[:,1],points[:,2],label="Control points")
-    plot!(points[:,1],points[:,2],label="Control curve")
-    plot!(cps[:,1],cps[:,2],label="Bezier curve")
+    scatter(points[:,1], points[:,2], label="Control points")
+    plot!(points[:,1], points[:,2], label="Control curve")
+    plot!(cps[:,1], cps[:,2], label="Bezier curve")
 end
 
 points = [

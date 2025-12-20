@@ -1,18 +1,21 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Add new post."""
 
-from datetime import date
+import os
+import subprocess
+from datetime import datetime
 from pathlib import Path
-
+from zoneinfo import ZoneInfo
 
 post_name = input("post name: ").strip()
 if post_name == "":
-    print("empty and exit.")
+    print("abort.")
     exit()
 
 this_path = Path(__file__).parent.parent
-today = date.today()
-target_path = this_path / "content/post" / today.strftime("%Y/%m")
+zone = ZoneInfo("Asia/Shanghai")
+now = datetime.now(zone)
+target_path = this_path / "content/post" / now.strftime("%Y/%m")
 # print(target_path)
 
 if post_name.endswith("/"):
@@ -28,12 +31,18 @@ else:
 
 post_path.mkdir(parents=True, exist_ok=True)
 post_path = post_path / post_name
+if post_path.exists():
+    confirm = input("this post exists. overwrite? (y/N)").strip()
+    if confirm.lower() != "y":
+        print("abort.")
+        exit()
 
+now = now.strftime("%Y-%m-%dT%H:%M:%S%z")
 title_tmpl = f"""\
 ---
 title: name
-date: {today}
-lastmod: {today}
+date: {now}
+lastmod: {now}
 draft: true
 tags:
  - tag
@@ -44,7 +53,13 @@ categories:
 
 try:
     post_path.write_text(title_tmpl)
-    post_path = post_path.relative_to(this_path)
-    print(f"edit file: {post_path}")
 except OSError as e:
     print(e)
+
+editor = os.getenv("EDITOR", default="nvim")
+try:
+    subprocess.run([editor, str(post_path)])
+except OSError as e:
+    print(e)
+    rel_path = post_path.relative_to(this_path)
+    print(f"cannot open post, edit it manually: {rel_path}")
