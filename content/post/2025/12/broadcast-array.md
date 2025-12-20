@@ -4,9 +4,10 @@ date: 2025-12-20T14:28:11+0800
 lastmod: 2025-12-20T14:28:11+0800
 draft: false
 tags:
- - tag
+ - broadcast
+ - array
 categories:
- - category
+ - Computer
 ---
 
 > 整理以前对于数组计算广播机制的研究。
