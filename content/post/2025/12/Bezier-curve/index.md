@@ -2,7 +2,7 @@
 title: 贝塞尔曲线 Bézier/Bezier curve
 date: 2025-12-20T02:56:29+0800
 lastmod: 2025-12-20T02:56:29+0800
-draft: true
+draft: false
 tags:
  - Bezier curve
 categories:
