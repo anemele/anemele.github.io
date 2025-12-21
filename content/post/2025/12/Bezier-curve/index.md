@@ -29,12 +29,12 @@ $t=\frac{P_0P}{P_0P_1}$。该式子展开为 $P=(1-t)P_0+tP_1$。
 以二阶曲线为例，根据线性插值有
 
 $$
-\begin{align}
+\begin{align*}
 P'&=(1-t)P_0+tP_1\\
 P''&=(1-t)P_1+tP_2\\
 P&=(1-t)P'+tP''\\
 &=(t^2-2t+1)P_0+(2t-2t^2)P_1+t^2P_2
-\end{align}
+\end{align*}
 $$
 
 $P$ 是关于 $t$ 变化的量，记为函数
@@ -49,7 +49,7 @@ $$
 这个式子可以再进一步变换成矩阵乘法形式
 
 $$
-\begin{align}
+\begin{align*}
 P&=(t^2-2t+1)P_0+(2t-2t^2)P_1+t^2P_2\\
 &=\begin{bmatrix}
 t^2 & t & 1
@@ -62,7 +62,7 @@ t^2 & t & 1
 \begin{bmatrix}
 P_0 \\ P_1 \\ P_2
 \end{bmatrix}
-\end{align}
+\end{align*}
 $$
 
 这样将变量和常量分离开来，方便研究。

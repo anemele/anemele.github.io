@@ -29,11 +29,11 @@ math: true
 
 $$
 \left\{
-\begin{aligned}
+\begin{align*}
 &c,\ w\in \mathbb{N};\ c\neq 0\\
 &c_0=c_1+c_2=w_0+w_1+w_2\\
 &0\leq w_0\leq c_0,\ 0\leq w_1\leq c_1,\ 0\leq w_2\leq c_2
-\end{aligned}
+\end{align*}
 \right.
 $$
 
@@ -119,7 +119,7 @@ def pour(bottle1: Bottle, bottle2: Bottle) -> None:
 然后倒水，以下左边是方向，右边是完成状态：
 
 $$
-\begin{align}
+\begin{align*}
 &B_0\Rightarrow B_1&B_0=(10,3),\ B_1=(7,7),\ B_2=(3,0)\\
 &B_1\Rightarrow B_2&B_0=(10,3),\ B_1=(7,4),\ B_2=(3,3)\\
 &B_2\Rightarrow B_0&B_0=(10,6),\ B_1=(7,4),\ B_2=(3,0)\\
@@ -128,5 +128,5 @@ $$
 &B_1\Rightarrow B_2&B_0=(10,9),\ B_1=(7,0),\ B_2=(3,1)\\
 &B_0\Rightarrow B_1&B_0=(10,2),\ B_1=(7,7),\ B_2=(3,1)\\
 &B_1\Rightarrow B_2&B_0=(10,2),\ B_1=(7,5),\ B_2=(3,3)\\
-\end{align}
+\end{align*}
 $$

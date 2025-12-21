@@ -58,35 +58,35 @@ $$
 ## 倍角公式
 
 $$
-\begin{aligned}
+\begin{align*}
 \sin 2\theta&=2\sin\theta\cos\theta\\\\
 \cos 2\theta&=\cos^2\theta-\sin^2\theta
-\end{aligned}
+\end{align*}
 $$
 
 ## 三倍角公式
 
 $$
-\begin{aligned}
+\begin{align*}
 \sin 3\theta&=3\sin\theta-4\sin^3\theta\\\\
 \cos 3\theta&=4\cos^3\theta-3\cos\theta
-\end{aligned}
+\end{align*}
 $$
 
 ## 半角公式
 
 $$
-\begin{aligned}
+\begin{align*}
 \sin\frac{\theta}{2}&=\sqrt{\frac{1-\cos\theta}{2}}\\\\
 \cos\frac{\theta}{2}&=\sqrt{\frac{1+\cos\theta}{2}}\\\\
 \tan\frac{\theta}{2}&=\sqrt{\frac{1-\cos\theta}{1+\cos\theta}}
-\end{aligned}
+\end{align*}
 $$
 
 ## 积化和差
 
 $$
-\begin{aligned}
+\begin{align*}
 \cos\alpha\cos\beta&=\frac12[\cos(\alpha+\beta)+\cos(\alpha-\beta)]
 \\\\
 \sin\alpha\sin\beta&=\frac12[\cos(\alpha-\beta)-\cos(\alpha+\beta)]
@@ -94,13 +94,13 @@ $$
 \sin\alpha\cos\beta&=\frac12[\sin(\alpha+\beta)+\sin(\alpha-\beta)]
 \\\\
 \cos\alpha\sin\beta&=\frac12[\sin(\alpha+\beta)-\sin(\alpha-\beta)]
-\end{aligned}
+\end{align*}
 $$
 
 ## 和差化积
 
 $$
-\begin{aligned}
+\begin{align*}
 \sin\alpha+\sin\beta&=2\sin\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}
 \\\\
 \sin\alpha-\sin\beta&=2\cos\frac{\alpha+\beta}{2}\sin\frac{\alpha-\beta}{2}
@@ -108,5 +108,5 @@ $$
 \cos\alpha+\cos\beta&=2\cos\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}
 \\\\
 \cos\alpha-\cos\beta&=-2\sin\frac{\alpha+\beta}{2}\sin\frac{\alpha-\beta}{2}
-\end{aligned}
+\end{align*}
 $$

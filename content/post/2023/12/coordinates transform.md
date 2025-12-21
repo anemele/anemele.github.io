@@ -26,11 +26,11 @@ math: true
 
 $$
 \left\{
-\begin{aligned}
+\begin{align*}
 \vec{A}=A_x{\hat{a}}_x+A_y{\hat{a}}_y+A_z{\hat{a}}_z\\
 \vec{A}=A_r{\hat{a}}_r+A_\phi{\hat{a}}_\phi+A_z{\hat{a}}_z\\
 \vec{A}=A_r{\hat{a}}_r+A_\theta{\hat{a}}_\theta+A_\phi{\hat{a}}_\phi
-\end{aligned}
+\end{align*}
 \right.
 $$
 
@@ -39,7 +39,7 @@ $$
 柱坐标和直角坐标之间的转换，其实就是极坐标和平面直角坐标之间的转换，满足下列关系
 
 $$
-\left\{\begin{aligned}x=r\cos\phi\\ y=r\sin\phi\end{aligned}\right.
+\left\{\begin{align*}x=r\cos\phi\\ y=r\sin\phi\end{align*}\right.
 $$
 
 直角坐标系 --> 柱坐标系
@@ -75,7 +75,7 @@ $$
 直角坐标系 --> 球坐标系
 
 $$
-\begin{aligned}\left[\begin{matrix}{\hat a}_x\\{\hat a}_y\\{\hat a}_z\end{matrix}\right]&=\left[\begin{matrix}\cos\phi&-\sin\phi&0\\\sin\phi&\cos\phi&0\\0&0&1\end{matrix}\right]\left[\begin{matrix}\sin\theta&\cos\theta&0\\0&0&1\\\cos\theta&-\sin\theta&0\\\end{matrix}\right]\left[\begin{matrix}{\hat a}_r\\{\hat a}_\theta\\{\hat a}_\phi\\\end{matrix}\right]\\&=\left[\begin{matrix}\sin\theta\cos\phi&\cos\theta\cos\phi&-\sin\phi\\\sin\theta\sin\phi&\cos\theta\sin\phi&\cos\phi\\\cos\theta&-\sin\theta&0\end{matrix}\right]\left[\begin{matrix}{\hat a}_r\\{\hat a}_\theta\\{\hat a}_\phi\end{matrix}\right]\end{aligned}
+\begin{align*}\left[\begin{matrix}{\hat a}_x\\{\hat a}_y\\{\hat a}_z\end{matrix}\right]&=\left[\begin{matrix}\cos\phi&-\sin\phi&0\\\sin\phi&\cos\phi&0\\0&0&1\end{matrix}\right]\left[\begin{matrix}\sin\theta&\cos\theta&0\\0&0&1\\\cos\theta&-\sin\theta&0\\\end{matrix}\right]\left[\begin{matrix}{\hat a}_r\\{\hat a}_\theta\\{\hat a}_\phi\\\end{matrix}\right]\\&=\left[\begin{matrix}\sin\theta\cos\phi&\cos\theta\cos\phi&-\sin\phi\\\sin\theta\sin\phi&\cos\theta\sin\phi&\cos\phi\\\cos\theta&-\sin\theta&0\end{matrix}\right]\left[\begin{matrix}{\hat a}_r\\{\hat a}_\theta\\{\hat a}_\phi\end{matrix}\right]\end{align*}
 $$
 
 逆变换

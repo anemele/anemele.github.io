@@ -39,10 +39,10 @@ $LA$
 
 $$
 \left\{
-\begin{aligned}
+\begin{align*}
     L_X&=LA+1-A \\
     L_Y&=LA
-\end{aligned}
+\end{align*}
 \right.
 $$
 
@@ -50,10 +50,10 @@ $$
 
 $$
 \left\{
-\begin{aligned}
+\begin{align*}
     A&=1-(L_X-L_Y) \\
     L&=\frac{L_Y}{A}
-\end{aligned}
+\end{align*}
 \right.
 $$
 
@@ -63,10 +63,10 @@ $$
 X 颜色调亮，Y 颜色调暗，使得两张图片的亮度差异尽可能大。
 
 $$
-\begin{aligned}
+\begin{align*}
 L_X'&=L_X/2+0.5 \\
 L_Y'&=L_Y/2
-\end{aligned}
+\end{align*}
 $$
 
 计算机中像素取值范围为 $0-255$，需要将 $0-1$ 映射到 $0-255$。
